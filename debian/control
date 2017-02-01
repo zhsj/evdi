@@ -1,0 +1,32 @@
+Source: evdi
+Section: kernel
+Priority: optional
+Maintainer: Shengjing Zhu <i@zhsj.me>
+Build-Depends: debhelper (>= 9), bzip2, libdrm-dev
+Standards-Version: 3.9.8
+Homepage: https://displaylink.github.io/evdi
+Vcs-Git: https://github.com/zhsj/evdi.git
+Vcs-Browser: https://github.com/zhsj/evdi
+
+Package: libevdi
+Section: libs
+Architecture: linux-any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Library for Extensible Virtual Display Interface
+ Extensible Virtual Display Interface (EVDI in short) is a software project
+ that allows any userspace Linux program manage additional displays, and
+ receive updates for them.
+ .
+ This package is the library that can be used by applications like DisplayLink's
+ user mode driver to send and receive information from and to the kernel module.
+
+Package: evdi-dkms
+Architecture: all
+Depends: dkms, ${misc:Depends}, ${shlibs:Depends}
+Provides: evdi-modules
+Description: Kernel modules for Extensible Virtual Display Interface
+ Extensible Virtual Display Interface (EVDI in short) is a software project
+ that allows any userspace Linux program manage additional displays, and
+ receive updates for them.
+ .
+ This DKMS package includes evdi kernel module.
