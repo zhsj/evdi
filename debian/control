@@ -2,13 +2,13 @@ Source: evdi
 Section: kernel
 Priority: optional
 Maintainer: Shengjing Zhu <i@zhsj.me>
-Build-Depends: debhelper (>= 9), bzip2, libdrm-dev
+Build-Depends: debhelper (>= 9), dkms, bzip2, libdrm-dev
 Standards-Version: 3.9.8
 Homepage: https://displaylink.github.io/evdi
 Vcs-Git: https://github.com/zhsj/evdi.git
 Vcs-Browser: https://github.com/zhsj/evdi
 
-Package: libevdi
+Package: libevdi0
 Section: libs
 Architecture: linux-any
 Depends: ${misc:Depends}, ${shlibs:Depends}
