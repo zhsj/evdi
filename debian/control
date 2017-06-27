@@ -8,7 +8,7 @@ Homepage: https://displaylink.github.io/evdi
 Vcs-Git: https://github.com/zhsj/evdi.git
 Vcs-Browser: https://github.com/zhsj/evdi
 
-Package: libevdi
+Package: libevdi0
 Section: libs
 Architecture: linux-any
 Depends: ${misc:Depends}, ${shlibs:Depends}

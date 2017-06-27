@@ -2,7 +2,6 @@ evdi (1.4.1-1) unstable; urgency=medium
 
   * New upstream release
   * Update to dh 10
-  * Rename lievdi0 to libevdi
 
  -- Shengjing Zhu <i@zhsj.me>  Tue, 27 Jun 2017 19:11:17 +0800
 
