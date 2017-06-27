@@ -3,19 +3,19 @@ Upstream-Name: evdi
 Source: https://github.com/DisplayLink/evdi
 
 Files: *
-Copyright: DisplayLink (UK) Ltd.
+Copyright: 2015-2017, DisplayLink (UK) Ltd.
 License: GPL-2+
 
 Files: debian/*
-Copyright: Shengjing Zhu <i@zhsj.me>
+Copyright: 2017, Shengjing Zhu <i@zhsj.me>
 License: GPL-2+
 
 Files: module/*
-Copyright: DisplayLink (UK) Ltd.
+Copyright: 2015-2017, DisplayLink (UK) Ltd.
 License: GPL-2+
 
 Files: library/*
-Copyright: DisplayLink (UK) Ltd.
+Copyright: 2015-2017, DisplayLink (UK) Ltd.
 License: LGPL-2.1+
 
 License: GPL-2+
