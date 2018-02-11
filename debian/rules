@@ -8,7 +8,7 @@ include /usr/share/dpkg/default.mk
 	dh $@ --with dkms
 
 override_dh_auto_build:
-	$(MAKE) -C library
+	CC="$(CC) $(LDFLAGS)" $(MAKE) -C library
 
 override_dh_auto_install:
 	mkdir -p $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)
