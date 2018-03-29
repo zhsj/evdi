@@ -1,3 +1,9 @@
+evdi (1.5.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Shengjing Zhu <i@zhsj.me>  Thu, 29 Mar 2018 13:18:27 +0800
+
 evdi (1.5.0+git20171117.a73092d-1) unstable; urgency=medium
 
   * New upstream release
