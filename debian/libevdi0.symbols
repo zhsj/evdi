@@ -11,4 +11,6 @@ libevdi.so.0 libevdi0 #MINVER#
  evdi_open@Base 1.5.0
  evdi_register_buffer@Base 1.5.0
  evdi_request_update@Base 1.5.0
+ evdi_set_logging@Base 1.5.0.2
  evdi_unregister_buffer@Base 1.5.0
+ g_evdi_logging@Base 1.5.0.2
